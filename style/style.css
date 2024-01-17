@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* .daim{
+    display: none;
+} */
+header{
+    margin: 63px 135px;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-title-content ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-titlle{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.tag{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navbar-banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('/Images/Group\ 13\ \(1\)\ \(1\).png') ;
+    opacity: .9;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+    height: 500px;
+    margin-top: 70px;
+}
+/* banner section */
+.banner-heading{
+    width: 80%;
+    text-align: center;
+    margin:  100px auto;
+}
+.banner-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.input-btn{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    opacity: .9;
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+}
+.input-btn input{
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    
+}
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-text{
+    width: 80%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* popular section */
+main{
+    margin: 63px 135px;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 12px 25px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.popular-tour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.popular-content{
+    width: 50%;
+}
+.popular-img img{
+    width: 100%;
+}
+.popular-img{
+    width: 50%;
+}
+.popular-heading{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+.popular-text{
+    margin: 20px 0px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.popular-list{
+    margin: 3px 15px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/* destination */
+.destination{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+.destination-heading{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* tour section */
+.toure-area-container{
+    display: grid;
+    gap: 10px;
+}
+.toure-area{
+  
+    display: flex;
+    gap: 10px;
+}
+.maldives{
+    background-image: url('/Images/Rectangle\ 5.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+  }
+  .tour-side{
+    width: 50%;
+  }
+  .indonashia{
+    background-image: url('/Images/Rectangle\ 8.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+.srilanka{
+    background-image: url('/Images/Rectangle\ 6.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 350px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+.america{
+    background-image: url('/Images/Rectangle\ 7.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 500px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+.kashmir{
+    background-image: url('/Images/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+.toure-area-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.toure-area-3{
+    display: flex;
+    gap: 10px;
+}
+.bangladesh{
+    background-image: url('/Images/Rectangle\ 10.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 40%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+.bandarbaan{
+    background-image: url('/Images/Rectangle\ 11.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 60%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+/* choose section */
+.choose{
+    width: 60%;
+    text-align: center;
+    margin: 100px auto;
+}
+.card{
+
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-title{
+    margin: 15px 0px;
+}
+.card-section{
+    display: flex;
+    gap: 10px;
+}
+.card-2{
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card1{
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: 20px auto;
+}
+/* sample pleace */
+.simple-place{
+    margin-top: 150px ;
+    display: flex;
+    gap: 20px;
+}
+.sample-content{
+    width: 50%;
+}
+.simple-img{
+    background-image: url('/Images/Group\ 40089.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 50%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 15px;
+}
+.sample-heading{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+.text{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.sample-li{
+    margin: 15px 9px;
+}
+hr{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.frame{
+    display: flex;
+    justify-content: flex-end;
+}
+.simple-img{
+    display: flex;
+}
+/* news letter */
+.news-letter{
+    display: flex;
+    margin: 100px 0px;
+    gap: 10px;
+    height: 350px;
+   
+}
+.new-heading{
+    width: 40%;
+    border-radius: 16px;
+    padding: 30px 20px;
+    border: 1px solid #FF5400;
+}
+.news-img{
+    width: 60%;
+    
+}
+.news-img img{
+    height: 350px;
+    width: 100%;
+}
+.news-head{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-d{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 15px 0px;
+}
+.news-input{
+    margin: 10px 0px;
+    width: 350px;
+    height: 42px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.subscribe{
+    border-radius: 8px;
+    background: #FF5400;
+    margin: 10px 0px;
+    width: 350px;
+    height: 42px;
+    padding: 10px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.uptext{
+    width: 224px;
+    height: 80px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    float: right;
+    margin-top: -150px;
+    text-align: center;
+}
+.travel-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.travel-head{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* discount section */
+.discount{
+    background-image: url('/Images/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    width: 100%;
+}
+.discount{
+    display: flex;
+    align-items: flex-end;
+    align-items: end;
+}
+.discont-heading{
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+   
+}
+.discount-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+/* footer */
